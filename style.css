@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 nav {
@@ -15,6 +16,7 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 20px;
+
 }
 
 body {
@@ -25,12 +27,14 @@ body {
 #s1 {
     width: 100%;
     display: flex;
+     background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
+
+
 
 .car {
     width: 50%;
-}
-
+   }
 .car img {
     width: 100%;
 }
@@ -58,26 +62,35 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 .e {
-    width: 100%;
+    width:400px;
+    min-width:400px;
+    max-width:400px;
     padding: 20px;
-    font-size:25px ;
+    font-size:25px;
 }
 
+.g{
+    width:400px;
+    min-width:400px;
+    max-width:400px;
+}
 
-
-#s3 {}
 
 .car2 {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
     gap: 80px;
-    
+    flex-wrap: wrap;
 }
 
 .car3 {
@@ -85,8 +98,11 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
     gap: 80px;
+    flex-wrap: wrap;
+
 }
 
 .op{
@@ -97,15 +113,31 @@ body {
 }
 
 #s4{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.pecas1{
+background-color: blue;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pecas2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulooo{
+    width: 100%;
+    text-align: center;
 }
 
 .wrap{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    height: 50vh;
-    gap: 10px;
+   
 }
 
 #s5 {
@@ -115,7 +147,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 114, 121, 1) 49%, rgba(24, 56, 143, 1) 100%);
 }
 
 .contato {
