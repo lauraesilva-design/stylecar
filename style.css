@@ -2,7 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -10,13 +16,13 @@ nav {
     width: 100%;
     height: 80px;
     z-index: 999;
-    background-color: rgb(213, 218, 246);
+    background-color: white;
     box-shadow: 0px 3px 10px #09090970;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-
+font-weight: bolder ;
 }
 
 body {
@@ -27,14 +33,15 @@ body {
 #s1 {
     width: 100%;
     display: flex;
-     background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 
 
 .car {
     width: 50%;
-   }
+}
+
 .car img {
     width: 100%;
 }
@@ -68,17 +75,17 @@ body {
 }
 
 .e {
-    width:400px;
-    min-width:400px;
-    max-width:400px;
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
     padding: 20px;
-    font-size:25px;
+    font-size: 25px;
 }
 
-.g{
-    width:400px;
-    min-width:400px;
-    max-width:400px;
+.g {
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
 }
 
 
@@ -105,44 +112,40 @@ body {
 
 }
 
-.op{
+.op {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#s4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.pecas1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#s4 {
     gap: 50px;
-    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
 }
 
-.pecas2{
+.pecas1 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 20%
 }
 
+.pecas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    gap: 20px;
+}
 
-.titulooo{
+.titulooo {
     width: 100%;
     text-align: center;
-    margin-bottom: -100px;
-}
-
-.wrap{
-    width: 30vh;
 }
 
 
@@ -153,7 +156,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 114, 121, 1) 49%, rgba(24, 56, 143, 1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 114, 121, 1) 49%, rgba(24, 56, 143, 1) 100%);
 }
 
 .contato {
